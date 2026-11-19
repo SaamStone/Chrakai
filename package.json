@@ -1,0 +1,10 @@
+{
+  "name": "aveline-floss-replica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local, self-contained Aveline Floss template replica.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "assets": "node scripts/localize-assets.mjs"
+  }
+}
