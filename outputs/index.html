@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Aveline Dental Studio — Gentle, modern dentistry</title>
+<link rel="stylesheet" href="./assets/fonts/geist.css">
+<style>
+:root{--ink:#101c1e;--muted:#6b7779;--teal:#0d5660;--mint:#dcebe7;--paper:#f3f5f4;--line:#d9dfda;--white:#fff;--serif:Geist,Arial,sans-serif;--sans:Geist,Arial,sans-serif;--ease:cubic-bezier(.23,1,.32,1)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 var(--sans)}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}img{display:block;width:100%;height:100%;object-fit:cover}.wrap{width:min(1320px,calc(100% - 64px));margin:auto}.hero{height:min(900px,100vh);min-height:700px;margin:8px;border-radius:24px;position:relative;overflow:hidden;color:#fff;background:#243b39}.hero>img{position:absolute;inset:0;object-position:center 35%;filter:brightness(.69)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,20,24,.86),rgba(5,20,24,.13) 76%),linear-gradient(90deg,rgba(5,20,24,.25),transparent 80%)}.nav{position:absolute;z-index:2;top:20px;left:26px;right:26px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:12px;align-items:center;font-weight:700}.tooth{font-size:30px;line-height:1}.brand small{display:block;font-weight:400;font-size:11px;opacity:.74;margin-top:-4px}.menu{border:1px solid #ffffff75;background:#ffffff16;color:#fff;padding:11px 18px;border-radius:28px;backdrop-filter:blur(12px)}.hero-inner{position:absolute;z-index:1;left:4%;right:4%;bottom:36px}.social-proof{display:flex;align-items:center;gap:14px;margin-bottom:64px;font-size:14px}.faces{display:flex}.faces img{width:36px;height:36px;border-radius:50%;border:2px solid #fff;margin-right:-8px}.hero h1{font:500 clamp(56px,8.2vw,116px)/.95 var(--serif);letter-spacing:-.075em;max-width:970px;margin:0 0 28px}.hero-copy{font-size:17px;max-width:490px;color:#f0f4f1;margin:0 0 26px}.pill{border:1px solid #ffffff55;background:#ffffff15;color:inherit;border-radius:40px;padding:13px 19px;display:inline-flex;align-items:center;gap:14px;backdrop-filter:blur(10px);transition:transform .18s var(--ease),background .2s}.pill:active,.btn:active{transform:scale(.97)}.pill.light{background:#fff;color:var(--ink);padding:15px 22px}.pill span:last-child{background:var(--mint);color:var(--ink);border-radius:50%;width:30px;height:30px;display:grid;place-items:center}.desktop-nav{display:flex;align-items:center;gap:22px;font-size:12px}.mobile-actions{display:none}.hero-doctor{position:absolute;z-index:2;right:4%;top:96px;display:grid;grid-template-columns:48px minmax(0,1fr) auto;align-items:center;gap:12px;padding:10px 14px 10px 10px;border:1px solid #ffffff4d;border-radius:13px;background:#10232685;color:#fff;backdrop-filter:blur(14px);min-width:270px}.hero-doctor img{width:48px;height:48px;border-radius:9px;object-fit:cover}.hero-doctor div{display:grid;gap:3px;min-width:0}.hero-doctor b{font-size:13px}.hero-doctor span{font-size:10px;color:#e1eae7;line-height:1.3;overflow-wrap:anywhere}.hero-doctor>strong{font-size:12px;white-space:nowrap;align-self:center}.profile-review{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:13px;line-height:1.3}.profile-review b{font:500 17px/1 Geist,Arial,sans-serif}.profile-review span{font-size:11px;letter-spacing:.08em;color:#c38f40;white-space:nowrap}.profile-review small{font-size:11px;color:var(--muted);white-space:normal}.open-status{font-size:11px;color:#e0eee9}.nav-book{border:1px solid #ffffff80;border-radius:24px;padding:10px 15px;background:#ffffff16}.hero-actions{display:flex;gap:10px;flex-wrap:wrap}.treatment-chips{border-top:1px solid #ffffff42;margin-top:30px;padding-top:20px;display:flex;gap:9px;overflow:auto}.chip{white-space:nowrap;border:1px solid #ffffff40;padding:9px 15px;border-radius:24px;font-size:13px}.section{padding:116px 0}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--teal);font-weight:700}.display{font:500 clamp(40px,5vw,68px)/1.08 var(--serif);letter-spacing:-.065em;margin:16px 0 24px}.process{background:var(--teal);color:#fff;padding:30px 0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.step{border-left:1px solid #ffffff42;padding:6px 0 6px 18px}.step b{font-size:11px;opacity:.6}.step h3{font:500 19px var(--serif);margin:12px 0 6px}.step p{font-size:13px;color:#d0dfdc;margin:0;max-width:240px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center}.about-copy{font:400 24px/1.5 var(--serif);letter-spacing:-.025em;max-width:610px}.numbers{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:55px;padding-top:24px;border-top:1px solid var(--line)}.number strong{font:500 33px var(--serif);letter-spacing:-.06em}.number span{display:block;color:var(--muted);font-size:11px;margin-top:6px}.photo-card{height:560px;border-radius:14px;overflow:hidden;position:relative}.photo-card figcaption{position:absolute;left:18px;bottom:18px;background:#f7f6f0eF;border-radius:30px;padding:10px 15px;font-size:12px}.treatments{background:#eeefe9}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}.section-head>p{max-width:390px;color:var(--muted);font-size:14px}.treatment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.treatment{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px;min-height:180px;transition:transform .25s var(--ease),box-shadow .25s}.treatment:hover{transform:translateY(-4px);box-shadow:0 12px 30px #17343812}.treatment small{color:var(--muted);font-size:11px}.treatment h3{font:500 24px var(--serif);letter-spacing:-.04em;margin:30px 0 8px}.arrow{float:right;background:var(--mint);border-radius:50%;width:34px;height:34px;text-align:center;padding-top:7px}.care{background:#dcebe7}.care-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:9vw;align-items:center}.mockup{background:#fbfbf8;border:1px solid #cbd9d4;border-radius:18px;padding:28px;box-shadow:0 20px 60px #1f43431a}.mocktop{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:18px}.live{color:#45816b;font-size:11px}.bookrow{padding:15px 0;border-bottom:1px solid var(--line);font-size:13px;display:flex;justify-content:space-between}.bookrow span{color:var(--muted)}.bookrow.selected{color:var(--teal);font-weight:600}.subcards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.subcard{border:1px solid var(--line);border-radius:12px;padding:20px;background:#fff;font-size:12px;color:var(--muted)}.subcard h3{font:500 18px var(--serif);color:var(--ink);margin:0 0 17px}.price{font:500 33px var(--serif);color:var(--ink)}.specialists{background:#f7f6f0}.team-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw;margin-top:46px}.team-list{border-top:1px solid var(--line)}.person{padding:17px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;align-items:center;background:none;border-left:0;border-right:0;border-top:0;width:100%;text-align:left}.person .idx{font-size:11px;color:var(--muted)}.person strong{font:500 18px var(--serif)}.person small{margin-left:auto;color:var(--muted)}.person.active strong{color:var(--teal)}.portrait{height:570px;border-radius:14px;overflow:hidden;position:relative}.portrait-info{position:absolute;bottom:18px;left:18px;right:18px;background:#f8f7f0ee;border-radius:12px;padding:19px}.portrait-info p{font-size:14px;max-width:560px}.details{display:flex;gap:35px;color:var(--muted);font-size:12px}.details b{display:block;color:var(--ink);font-size:13px;font-weight:500}.studio{background:var(--teal);color:#fff}.studio .eyebrow{color:#a7d0c8}.studio-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:8vw;align-items:center}.studio-list{margin-top:40px}.studio-item{display:grid;grid-template-columns:32px 1fr;gap:12px;border-top:1px solid #ffffff45;padding:19px 0}.studio-item small{opacity:.6}.studio-item h3{font:500 17px var(--serif);margin:0}.studio-item p{font-size:12px;color:#c8dcda;margin:5px 0 0}.studio-photo{height:620px;border-radius:14px;overflow:hidden;position:relative}.stat-float{position:absolute;bottom:14px;left:14px;right:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat-float div{border-radius:9px;background:#f7f5edee;color:var(--ink);padding:14px;font-size:10px}.stat-float strong{display:block;font:500 17px var(--serif);margin-top:6px}.reviews{background:#eeeFE9}.review-head{display:flex;justify-content:space-between;align-items:end}.rating{font:500 42px var(--serif)}.review-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:14px;margin-top:42px}.quote{background:#f8f7f2;border-radius:12px;padding:25px;min-height:235px;display:flex;flex-direction:column;justify-content:space-between}.quote p{font:400 18px/1.55 var(--serif);letter-spacing:-.02em;margin:0}.quote small{color:var(--muted)}.journal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}.article{border-top:1px solid var(--line);padding-top:15px}.article-image{height:230px;border-radius:10px;overflow:hidden;margin-bottom:17px}.article small{color:var(--muted);font-size:11px}.article h3{font:500 23px/1.25 var(--serif);letter-spacing:-.04em;margin:10px 0}.faq{background:#e7eeea}.faq-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:9vw}.faq-list details{border-bottom:1px solid #cbd7d1;padding:18px 0}.faq-list summary{font:500 18px var(--serif);cursor:pointer;list-style:none;display:flex;justify-content:space-between}.faq-list summary:after{content:'+';font-family:var(--sans);color:var(--teal)}.faq-list details[open] summary:after{content:'−'}.faq-list p{color:var(--muted);font-size:14px;max-width:660px}.cta{background:var(--teal);color:#fff;text-align:center;padding:110px 20px}.cta .eyebrow{color:#b3d3cd}.cta .display{max-width:720px;margin:18px auto}.cta p{color:#d0e0dc;max-width:500px;margin:0 auto 26px}.footer{background:#102e32;color:#f7f6f0;padding:60px 0 24px}.footgrid{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:32px;padding-bottom:50px}.footer p,.footer a{font-size:12px;color:#bdceca}.footer h4{font-size:11px;text-transform:uppercase;letter-spacing:.1em}.footlinks{display:grid;gap:9px}.copyright{border-top:1px solid #ffffff30;padding-top:19px;display:flex;justify-content:space-between;font-size:11px;color:#bdceca}.btn{border:0;border-radius:30px;background:#fff;color:var(--ink);padding:15px 22px;display:inline-flex;gap:14px;align-items:center;transition:transform .18s var(--ease)}@media(max-width:800px){.wrap{width:calc(100% - 36px)}.hero{min-height:720px;height:92vh;margin:5px;border-radius:17px}.hero-inner{left:22px;right:22px;bottom:23px}.hero h1{font-size:clamp(48px,12vw,80px)}.social-proof{margin-bottom:48px;font-size:12px}.hero-copy{font-size:15px}.steps{grid-template-columns:repeat(2,1fr);gap:22px 15px}.section{padding:78px 0}.about-grid,.care-layout,.team-layout,.studio-grid,.faq-layout{grid-template-columns:1fr;gap:32px}.about-copy{font-size:20px}.photo-card{height:400px}.numbers{grid-template-columns:repeat(2,1fr);row-gap:20px}.section-head{display:block}.section-head>p{max-width:520px}.treatment-grid{grid-template-columns:repeat(2,1fr)}.treatment{padding:16px;min-height:155px}.treatment h3{font-size:20px;margin-top:25px}.team-layout{margin-top:25px}.portrait{height:470px;grid-row:1}.studio-photo{height:430px}.review-grid{grid-template-columns:1fr 1fr}.quote:first-child{grid-column:1/-1}.journal-grid{grid-template-columns:1fr}.article-image{height:270px}.footgrid{grid-template-columns:1fr 1fr}.footgrid>div:first-child{grid-column:1/-1}.copyright{gap:14px;flex-wrap:wrap}}@media(max-width:480px){.hero{min-height:680px}.hero h1{font-size:51px}.social-proof{margin-bottom:40px}.faces img{width:30px;height:30px}.steps{grid-template-columns:1fr 1fr}.treatment-grid{grid-template-columns:1fr}.treatment{min-height:140px}.subcards{grid-template-columns:1fr}.review-grid{grid-template-columns:1fr}.quote:first-child{grid-column:auto}.footgrid{grid-template-columns:1fr 1fr;gap:20px}.footer .footbrand{grid-column:1/-1}.display{font-size:43px}.nav{left:18px;right:18px;top:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style><style>/* Precision pass: legible line boxes and resilient wrapping across widths. */
+:root{--paper:#f3f5f4;--ink:#101c1e;--muted:#667376;--teal:#0d5660;--line:#d9dfda}
+*{min-width:0}
+body{font-family:Geist,Arial,sans-serif;line-height:1.55;overflow-wrap:normal}
+h1,h2,h3{font-family:Geist,Arial,sans-serif;text-wrap:balance;overflow-wrap:normal}
+p{ text-wrap:pretty; }
+.hero h1,.display,.route-hero h1,.route-section h2{line-height:1.08;letter-spacing:-.055em}
+.hero h1{line-height:1.02;max-width:900px}
+.display{line-height:1.1}
+.route-hero h1{line-height:1.06;max-width:980px}
+.route-section h2{line-height:1.1}
+.person{flex-wrap:wrap;row-gap:5px}
+.person small{margin-left:auto;max-width:45%;text-align:right;white-space:normal;line-height:1.35}
+.details{flex-wrap:wrap;gap:12px 24px;line-height:1.4}
+.portrait-info{max-height:calc(100% - 32px);overflow:auto;line-height:1.5}
+.portrait-info p{margin:10px 0 12px;line-height:1.5}
+.bookrow,.selectable{line-height:1.45;align-items:flex-start}
+.selectable>div{min-width:0;overflow-wrap:anywhere}
+.route-card h3,.treatment h3,.article h3{line-height:1.2;overflow-wrap:break-word}
+.route-row{line-height:1.5}
+.route-row h3{line-height:1.25}
+.faq-list summary,.route-faq summary{line-height:1.4;gap:18px}
+.faq-list summary:after,.route-faq summary:after{flex:0 0 auto}
+.footer,.route-foot{line-height:1.55}
+.treatments{background:#edf0ee}
+.specialists{background:#f3f5f4}
+.reviews{background:#edf0ee}
+@media(max-width:760px){.person small{flex-basis:100%;max-width:none;text-align:left;margin-left:34px}.route-grid{grid-template-columns:1fr 1fr}.route-card{overflow-wrap:break-word}.details{gap:10px 18px}.portrait-info{left:12px;right:12px;bottom:12px;padding:14px}}
+@media(max-width:480px){.route-grid{grid-template-columns:1fr}.hero h1{line-height:1.02;letter-spacing:-.045em}.route-hero h1{font-size:clamp(42px,13vw,54px)}.display{font-size:clamp(38px,11vw,46px)}.route-actions{align-items:flex-start}.route-row{grid-template-columns:28px minmax(0,1fr);}.route-meta{grid-column:2;text-align:left}.footgrid{column-gap:16px}.copyright{line-height:1.5}}
+</style>
+<style>
+.booking-progress{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:30px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.booking-progress span{font-size:11px;color:var(--muted)}.booking-progress b{display:block;color:#9aa5a3;font-size:11px;margin-bottom:5px}.booking-progress .active,.booking-progress .active b{color:var(--teal)}
+.book-card [data-step] h2{font:500 27px/1.2 Geist,Arial,sans-serif;letter-spacing:-.035em;margin:0 0 10px}.booking-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:22px}
+.selectable,.slot-option{font:inherit;color:var(--ink);text-align:left;border:1px solid var(--line);border-radius:10px;background:#f8f9f7;padding:15px;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;min-height:62px;transition:border-color .2s,background .2s,transform .2s}.selectable{width:100%;margin:8px 0}.selectable:hover,.slot-option:hover{border-color:#8ca9a4;transform:translateY(-1px)}.selectable.active,.slot-option.active{border-color:var(--teal);background:#e7efec}.selectable small,.slot-option small{display:block;color:var(--muted);font-size:12px;line-height:1.45}.selectable>small{text-align:right;white-space:nowrap}.slot-days,.slot-times{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}.slot-option{display:block;min-height:0;text-align:center}.slot-option b,.slot-option small{display:block}.booking-controls{display:flex;justify-content:space-between;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}.booking-controls .pill{border-color:var(--line);background:transparent;color:var(--ink)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.book-card label{display:grid;gap:7px;margin:12px 0;font-size:13px}.book-card input:not([type=checkbox]):not([type=radio]),.book-card textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:16px Geist,Arial,sans-serif}.book-card fieldset{border:1px solid var(--line);border-radius:9px;margin:18px 0;padding:12px}.book-card fieldset label,.book-card label.consent{display:flex;align-items:center;gap:9px}.review-summary{padding:20px;border-radius:10px;background:#f8f9f7}.review-summary p{line-height:1.6}.booking-controls button:disabled{opacity:.6;cursor:default}.visit-summary{height:max-content;position:sticky;top:20px}
+@media(max-width:760px){.booking-progress{grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}.booking-options,.form-grid{grid-template-columns:1fr}.visit-summary{position:static}.book-card [data-step] h2{font-size:23px}}
+</style>
+<style>:root{--ink:#172426;--teal:#155a60;--paper:#f4f5f2;--mint:#dce9e5;--line:#d9dfda;--muted:#687476;--sans:Geist,Arial,sans-serif;--serif:Geist,Arial,sans-serif}.hero{height:min(820px,100vh);min-height:650px}.hero h1,.route-hero h1,.display{font-weight:500;letter-spacing:-.055em}.number strong,.price,.rating{font-variant-numeric:tabular-nums}.route-menu.open{animation:menu-in .24s var(--ease) both}@keyframes menu-in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}@media(min-width:901px){.nav>.menu,.mobile-actions{display:none}}@media(max-width:900px){.desktop-nav{display:none}.mobile-actions{display:flex;align-items:center;gap:8px}.mobile-book{border:1px solid #ffffff75;background:#ffffff16;color:#fff;padding:10px 13px;border-radius:26px;font-size:12px;backdrop-filter:blur(12px)}.hero-doctor{right:20px;bottom:auto;top:94px;min-width:0;max-width:calc(100% - 40px)}}@media(prefers-reduced-motion:reduce){.route-menu.open{animation:none}}</style><style>
+/* Framer-like interaction timing: soft image dissolves, horizontal snaps and scroll reveals. */
+.motion-reveal{opacity:0;transform:translateY(12px);transition:opacity .46s cubic-bezier(.23,1,.32,1),transform .46s cubic-bezier(.23,1,.32,1)}
+.motion-reveal.is-visible{opacity:1;transform:translateY(0)}
+.hero>img{transition:opacity .65s ease,transform 7s linear}.hero>img.changing{opacity:.12;transform:scale(1.035)}
+.review-active{animation:review-slide-in .36s cubic-bezier(.22,1,.36,1) both}@keyframes review-slide-in{from{opacity:0;transform:translateX(16px)}to{opacity:1;transform:translateX(0)}}
+.treatment-grid{display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding:0 0 10px}.treatment-grid::-webkit-scrollbar{display:none}.treatment-grid>.treatment{flex:0 0 min(370px,82vw);scroll-snap-align:start}.treatments .section-head{position:relative}.treatments button{transition:background .18s ease,transform .2s cubic-bezier(.22,1,.36,1)}.treatments button:hover{transform:translateY(-2px)}
+.calendar-head{display:flex;align-items:center;justify-content:space-between;margin:20px 0 12px}.calendar-head button{width:38px;height:38px;border:1px solid var(--line);background:#fff;border-radius:50%;font-size:23px}.calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px;text-align:center}.weekday{color:var(--muted);font-size:12px;padding:8px}.calendar-day{aspect-ratio:1;border:1px solid transparent;border-radius:50%;background:transparent}.calendar-day:hover:not(:disabled),.calendar-day.active{background:var(--teal);color:#fff}.calendar-day:disabled{color:#b6bfbc;cursor:default}
+@media(max-width:760px){.treatment-grid>.treatment{flex-basis:min(320px,84vw)}.motion-reveal{transform:translateY(8px);transition-duration:.38s}}
+@media(prefers-reduced-motion:reduce){.motion-reveal{opacity:1;transform:none;transition:none!important}.hero>img,.review-active{animation:none!important;transition:none!important}.treatment-grid{scroll-behavior:auto}}
+</style><style>
+/* Keep the opening hero in normal flow on narrow screens so wrapped content cannot collide. */
+@media(max-width:900px){
+  .hero{display:flex;flex-direction:column;height:auto;min-height:0;padding:0 0 24px;overflow:hidden}
+  .hero-doctor{position:relative;order:2;top:auto;right:auto;bottom:auto;left:auto;align-self:flex-start;width:min(340px,calc(100% - 44px));max-width:none;margin:18px 22px 0}
+  .hero-inner{position:relative;order:1;left:auto;right:auto;bottom:auto;margin:0 22px;padding-top:94px}
+  .mobile-book{display:none}
+  .hero-actions .pill:not(.light){display:none}
+}
+@media(max-width:520px){
+  .hero-doctor{width:min(340px,calc(100% - 40px));margin-right:20px;margin-left:20px;grid-template-columns:42px minmax(0,1fr) auto;gap:10px;padding:9px 12px 9px 9px}
+  .hero-doctor>img{width:50px;height:50px;border-radius:9px}
+  .hero-inner{margin-right:20px;margin-left:20px;padding-top:160px}
+  .social-proof{margin-bottom:28px}
+  .hero h1{margin-bottom:20px}
+  .hero-copy{margin-bottom:20px}
+  .hero-actions{gap:8px}
+  .hero-actions .pill{min-height:46px}
+  .treatment-chips{margin-top:22px;padding-top:15px}
+  .hero-dots{margin-top:13px}
+}
+</style>
+<style>
+.treatment-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:28px}
+.treatment-proof{display:flex;align-items:center;gap:14px}
+.treatment-proof .faces img{width:34px;height:34px}
+.treatment-proof>div:last-child{display:grid;gap:2px}
+.treatment-proof strong{font-size:17px;font-weight:600;line-height:1.1}
+.treatment-proof span{font-size:12px;color:var(--muted)}
+.treatment-note{flex:1;margin:0 20px;color:var(--muted);font-size:12px;max-width:360px}
+.treatment-controls{display:flex;gap:10px}
+.treatment-controls button:first-child{background:#bac9c8;color:#fff;border-color:#bac9c8}
+.treatment-controls button:last-child{background:#102e32;color:#fff;border-color:#102e32}
+.subcards{grid-template-columns:1fr}
+.book-label{display:block;margin:17px 0 8px;color:var(--muted);font-size:12px}
+.bookrow{display:block;padding:13px 14px;margin:8px 0;border:1px solid #dce2df;border-radius:12px;background:#fff;cursor:pointer;transition:background .18s,border-color .18s}
+.bookrow.selected{border-color:#7fa6a2;background:#edf4f2;color:var(--ink);font-weight:400}
+.bookrow:hover{border-color:#9ab7b3}
+.bookrow:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.visit-summary{display:flex;flex-direction:column;gap:14px;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.visit-summary>div{display:grid;gap:3px}
+.visit-summary small{font-size:11px;color:var(--muted)}
+.visit-summary strong{font-size:14px;font-weight:500}
+.visit-summary>div>span{font-size:12px;color:var(--muted)}
+.visit-request{display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 16px;border-radius:28px;background:var(--teal);color:#fff!important;font-size:13px;font-weight:500}
+.subcard-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.subcard-head h3{margin:0}
+.plan-status{flex:0 0 auto;border-radius:20px;background:#e8f1ee;color:#5c7f7d;padding:7px 11px;font-size:11px}
+.aligner-summary{display:flex;justify-content:space-between;align-items:center}
+.aligner-summary>div{display:flex;align-items:baseline}
+.aligner-summary>div strong{font:400 54px/1 var(--serif);letter-spacing:-.06em}
+.aligner-summary>div span{color:var(--muted);font-size:14px}
+.aligner-summary small{display:grid;gap:4px;text-align:right;color:var(--muted);font-size:11px}
+.aligner-summary small b{font-size:13px;color:var(--ink);font-weight:500}
+.plan-progress{display:grid;grid-template-columns:repeat(22,minmax(0,1fr));gap:3px;margin:18px 0 8px}
+.plan-progress span{height:30px;border-radius:3px;background:#e8efed}
+.plan-progress span:nth-child(-n+5){background:#43888b}
+.plan-stages{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}
+.aligner-metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px;padding-top:15px;border-top:1px solid var(--line)}
+.aligner-metrics>span{display:grid;gap:5px;color:var(--muted);font-size:11px}
+.aligner-metrics b{font-size:15px;color:var(--ink);font-weight:500}
+.estimate-row{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:13px}
+.estimate-row b{font-weight:500;color:var(--ink);white-space:nowrap}
+.estimate-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:15px}
+.estimate-total span{font-size:12px;color:var(--muted)}
+.estimate-total strong{font:400 36px/1 var(--serif);letter-spacing:-.05em;color:var(--ink)}
+.estimate-card>small:last-child{display:block;margin-top:11px;font-size:11px;color:var(--muted)}
+.care{background:var(--paper)}
+.care-reminder{position:relative;isolation:isolate;overflow:hidden;min-height:550px;margin-top:56px;padding:28px 20px 0;border-radius:18px;background:#3c838a;color:#fff}
+.care-reminder-copy{position:relative;z-index:1;max-width:340px}
+.care-reminder .eyebrow{color:#c4e0dc;font-size:11px}
+.care-reminder h2{font:500 27px/1.12 var(--serif);letter-spacing:-.045em;margin:18px 0 16px;max-width:330px}
+.care-reminder p{font-size:14px;line-height:1.6;color:#e0efed;max-width:330px;margin:0 0 22px}
+.care-reminder .pill.light{padding:12px 17px}
+.care-reminder>img{position:absolute;z-index:0;left:50%;bottom:0;transform:translateX(-50%);width:min(400px,92%);height:285px;object-fit:contain}
+.team-bio-mobile{display:none}
+.reviews,.faq{background:var(--paper)}
+.reviews .wrap{display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);column-gap:8vw;row-gap:0;align-items:start}
+.review-head{grid-column:1;grid-row:1;display:block}
+.review-head>div:last-child{margin-top:14px}
+.review-head .display{max-width:290px}
+.rating{font-size:64px;line-height:1;letter-spacing:-.06em}
+.review-grid{display:block;grid-column:2;grid-row:1;margin:0;min-width:0}
+.quote{min-height:260px;background:transparent;border-radius:0;padding:0;justify-content:flex-start;gap:22px}
+.quote p{font:400 clamp(25px,3vw,38px)/1.24 var(--serif);letter-spacing:-.035em}
+.quote small{display:flex;align-items:center;gap:13px;color:var(--muted);font-size:12px;line-height:1.45}
+.quote small img{width:50px;height:50px;flex:0 0 50px;border-radius:50%;object-fit:cover}
+.quote small span{display:grid;gap:2px}
+.review-controls{grid-column:2;grid-row:2;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);margin-top:22px;padding-top:18px}
+.review-controls button{width:44px;height:44px;background:#48585a;color:#fff;border:0}
+.faq-list summary:after{width:36px;height:36px;flex:0 0 36px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;margin-top:-7px;color:var(--ink);font-size:18px}
+.faq-list details[open] summary:after{content:'×';background:#48585a;color:#fff;border-color:#48585a}
+.stat-float{left:16px;right:16px;bottom:16px;display:block;border-radius:14px;background:#f8f8f5f2;color:var(--ink);padding:18px 20px}
+.stat-top{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line);padding-bottom:14px}
+.stat-top>div+div{border-left:1px solid var(--line);padding-left:16px}
+.stat-top small,.stat-bottom small{display:block;color:var(--muted);font-size:11px}
+.stat-top strong{display:block;font:400 13px/1.2 var(--sans);margin-top:4px}
+.stat-top strong b{font:400 31px/1 var(--serif);letter-spacing:-.05em;margin-right:4px}
+.stat-bottom{display:flex;align-items:center;gap:16px;padding-top:13px}
+.stat-bottom>div{flex:1;min-width:0}
+.stat-bottom>strong{font-size:11px;font-weight:500}
+.availability-bar{display:flex;gap:4px;margin-top:7px}
+.availability-bar span{height:24px;flex:1;border-radius:3px;background:#e7eeec}
+.availability-bar span:nth-child(-n+12){background:#176b73}
+.cta-split{background:transparent;text-align:left;padding:74px 32px;color:var(--ink)}
+.cta-panel{width:min(1320px,100%);min-height:440px;margin:auto;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;border-radius:18px;background:#dcebe7;color:var(--ink)}
+.cta-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:48px 60px}
+.cta-split .eyebrow{color:var(--teal)}
+.cta-split .display{max-width:440px;margin:18px 0}
+.cta-split p{color:#5b696b;max-width:440px;margin:0}
+.cta-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:26px}
+.cta-split .btn{background:var(--teal);color:white}
+.cta-phone{font-size:14px}
+.cta-image{width:100%;height:100%;min-height:440px;object-fit:cover}
+.footer{background:#fff;color:var(--ink);padding:60px 0 0}
+.footer p,.footer a{color:#566366}
+.footer .brand{color:var(--ink)}
+.footer .tooth{filter:none}
+.footer h4{color:#778184;text-transform:none;font-size:12px;letter-spacing:0;font-weight:400}
+.footer .footbrand p{max-width:350px}
+.footer .footbrand form{display:flex;align-items:center;gap:0;max-width:420px;border:1px solid #d8dfdc;border-radius:28px;background:#f5f6f4;padding:5px}
+.footer .footbrand form input{flex:1;max-width:none!important;border:0!important;background:transparent!important;border-radius:24px;padding:10px 14px!important}
+.footer .footbrand form .btn{border-radius:24px;padding:11px 16px!important}
+.footer input{border-color:#d8dfdc!important;background:#f7f8f6!important;color:var(--ink)!important}
+.footer input::placeholder{color:#788487}
+.footer .btn{background:var(--teal);color:#fff}
+.footer .copyright{border-color:#dfe4e1;color:var(--muted);margin-top:0;padding:20px 0}
+.social-links{display:flex;gap:9px;margin-top:12px}
+.social-links a{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;color:#4d5d60;font-size:16px}
+.footer-wordmark{height:132px;overflow:hidden;text-align:center;color:#edf1ef;font:500 clamp(120px,22vw,290px)/.78 var(--serif);letter-spacing:-.09em;white-space:nowrap}
+.studio-credit{width:min(1320px,calc(100% - 64px));margin:28px auto 0;text-align:right;font-size:11px;color:var(--muted)}.studio-credit a{border-bottom:1px solid var(--line);padding-bottom:2px}
+@media(min-width:901px){.care-reminder{min-height:460px;padding:42px}.care-reminder-copy{max-width:430px;padding-top:20px}.care-reminder h2{font-size:38px}.care-reminder>img{left:auto;right:4%;width:48%;height:100%;transform:none}}
+@media(max-width:900px){.portrait-info{left:14px;right:auto;bottom:14px;max-height:none;overflow:visible;background:#f8f7f0;border-radius:28px;padding:9px 13px}.portrait-info>strong,.portrait-info>p,.portrait-info>.details{display:none}.portrait-info .profile-review{margin:0;gap:8px}.team-bio-mobile{display:block;padding:24px 0 8px;border-bottom:1px solid var(--line)}.team-bio-mobile>strong{font:500 18px/1.3 var(--serif)}.team-bio-mobile p{font-size:14px;line-height:1.55;color:var(--muted);max-width:650px}.team-bio-mobile .details{gap:14px 24px}.care-reminder{min-height:550px}}
+@media(max-width:900px){.reviews .wrap{grid-template-columns:minmax(180px,.72fr) minmax(0,1.28fr);column-gap:32px}.cta-split{padding:54px 18px}.cta-copy{padding:34px 30px}.cta-panel{min-height:380px}.cta-image{min-height:380px}.footer .footgrid{grid-template-columns:1.5fr repeat(4,1fr);gap:18px}}
+@media(max-width:800px){.team-layout{grid-template-columns:minmax(0,1fr)}.portrait{grid-column:1;grid-row:1}.team-list{grid-column:1;grid-row:2}.team-bio-mobile{grid-column:1;grid-row:3}}
+@media(max-width:800px){.care-layout>div:first-child{text-align:center}.care-layout>div:first-child .display{max-width:580px;margin:14px auto 20px}.care-layout>div:first-child p{margin-left:auto;margin-right:auto}.care-layout>div:first-child .pill{display:inline-flex;margin:16px auto}}
+@media(max-width:760px){.treatment-note{display:none}.reviews .wrap{display:block}.review-head{margin-bottom:34px}.review-grid{display:block}.quote{min-height:230px}.review-controls{margin-top:8px}.cta-panel{grid-template-columns:1fr}.cta-copy{padding:34px 24px}.cta-image{min-height:300px;height:300px}.footer .footgrid{grid-template-columns:1fr 1fr;gap:20px}.footer .footbrand{grid-column:1/-1}}
+@media(max-width:520px){.treatment-footer{margin-top:22px}.treatment-proof{gap:10px}.treatment-proof .faces img{width:30px;height:30px}.care-reminder{min-height:510px;padding:25px 18px 0}.care-reminder>img{height:255px}.team-bio-mobile{padding-top:20px}.reviews .wrap{display:block}.rating{font-size:52px}.quote p{font-size:26px}.review-controls button{width:40px;height:40px}.footer-wordmark{height:90px;font-size:clamp(100px,24vw,175px)}.cta-split{padding:44px 16px}.cta-copy{padding:30px 20px}.cta-image{height:260px;min-height:260px}}
+</style><style>
+/* Keep the opening hero from compressing its text into overlapping rows. */
+.hero h1{line-height:1.08;letter-spacing:-.045em;text-wrap:balance;overflow-wrap:normal}
+@media(min-width:901px){.hero{height:auto;min-height:min(820px,100svh);display:flex;flex-direction:column;padding:184px 0 36px}.hero-inner{position:relative;left:auto;right:auto;bottom:auto;margin:auto 4% 0}}
+.hero-doctor{width:min(360px,calc(100% - 40px));grid-template-columns:48px minmax(0,1fr) max-content}
+.hero-doctor b,.hero-doctor span{min-width:0;overflow-wrap:anywhere}
+.hero-doctor>strong{align-self:start;margin-top:2px}
+@media(min-width:901px) and (max-height:760px){
+  .hero{min-height:760px}
+  .hero-inner{margin-bottom:26px}
+  .social-proof{margin-bottom:34px}
+  .hero h1{font-size:clamp(54px,7vw,82px);margin-bottom:18px}
+  .hero-copy{margin-bottom:18px}
+  .treatment-chips{margin-top:20px;padding-top:14px}
+}
+@media(max-width:900px){
+  .hero-doctor{width:min(360px,calc(100% - 44px));grid-template-columns:48px minmax(0,1fr) max-content}
+  .hero-inner{padding-top:108px}
+  .social-proof{margin-bottom:28px}
+}
+@media(max-width:520px){
+  .hero-doctor{min-width:0;grid-template-columns:42px minmax(0,1fr) max-content}
+  .hero-doctor>strong{font-size:11px}
+  .hero-inner{padding-top:108px}
+  .hero h1{font-size:clamp(44px,11.4vw,58px);line-height:1.08;letter-spacing:-.04em}
+  .treatment-chips{margin-top:22px;padding-top:14px}
+}
+.selectable{align-items:flex-start;min-width:0}
+.selectable>span{flex:1 1 auto;min-width:0;overflow-wrap:break-word;line-height:1.45}
+.selectable>span>b{display:inline-block;line-height:1.35;margin-bottom:3px}
+.selectable>small{flex:0 1 120px;min-width:76px;max-width:120px;white-space:normal;text-align:right;line-height:1.4;overflow-wrap:anywhere}
+.team-leads>a b{min-width:0;overflow-wrap:anywhere}
+.team-leads>a small{max-width:150px;white-space:normal;text-align:right;line-height:1.35;overflow-wrap:anywhere}
+.route-card,.route-row,.route-hero,.team-copy{min-width:0;overflow-wrap:break-word}.book-section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin:12px 0 28px}
+.book-section-heading h2,.book-hours-section h2,.book-info-section h2{font:400 clamp(36px,5vw,64px)/1.05 var(--serif);letter-spacing:-.055em;margin:8px 0 0}
+.book-section-heading .pill.alt{background:transparent;color:var(--ink);border-color:var(--line);backdrop-filter:none}
+.book-entrance-link{display:block;overflow:hidden;border-radius:16px}
+.book-entrance-image{height:min(68vw,650px);min-height:280px;object-fit:cover;transition:transform .6s var(--ease)}
+.book-entrance-link:hover .book-entrance-image{transform:scale(1.015)}
+.book-location-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px;margin-top:30px}
+.book-location-grid article{min-width:0;border-top:1px solid var(--line);padding-top:20px}
+.book-location-grid article>span{font-size:12px;color:var(--muted)}
+.book-location-grid h3{font:500 22px/1.25 var(--serif);margin:16px 0 4px}
+.book-location-grid p{font-size:14px;line-height:1.55;color:var(--muted);margin:6px 0;overflow-wrap:anywhere}
+.book-location-grid a:not(.pill),.book-info-section .lead a{color:var(--teal);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.book-location-grid article>a{display:inline-block;margin-top:10px;font-size:13px}
+.book-hours-section{display:grid;grid-template-columns:.7fr 1.3fr;gap:7vw;align-items:start}
+.book-hours{border-top:1px solid var(--line)}
+.book-hours-status{font-size:12px;color:var(--muted);margin:14px 0 4px}
+.book-hours-row{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.4}
+.book-hours-row>span{display:flex;align-items:center;gap:10px}
+.book-hours-row>span small{font-size:11px;color:var(--teal);background:#deebe7;border-radius:20px;padding:4px 9px}
+.book-hours-row>b{font-weight:400;color:var(--muted);text-align:right;white-space:nowrap}
+.book-info-section>.lead{max-width:700px;line-height:1.6}
+.book-checklist{border-top:1px solid var(--line);margin-top:26px}
+.book-checklist>div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;align-items:start;border-bottom:1px solid var(--line);padding:17px 0}
+.book-checklist>div>span{color:var(--teal);font-size:16px;line-height:1.4}
+.book-checklist p{font-size:14px;line-height:1.5;color:var(--muted);margin:0;overflow-wrap:anywhere}
+@media(max-width:760px){
+  .book-section-heading{align-items:flex-start;flex-direction:column;gap:18px;margin-bottom:24px}
+  .book-section-heading h2,.book-hours-section h2,.book-info-section h2{font-size:clamp(36px,10vw,48px)}
+  .book-entrance-image{height:min(68vw,500px);min-height:260px}
+  .book-location-grid,.book-hours-section{grid-template-columns:minmax(0,1fr);gap:0}
+  .book-location-grid{margin-top:20px}
+  .book-hours-section{gap:24px}
+  .book-hours-row{font-size:13px;gap:10px}
+  .book-hours-row>span{gap:7px}
+}
+@media(max-width:420px){.book-location-grid a:not(.pill){font-size:12px}.book-hours-row>span small{padding:3px 7px}}.hero-dots{display:flex;align-items:center;gap:12px;color:#fff;font-size:11px;line-height:1}
+.hero-dots button{display:grid;place-items:center;width:36px;height:36px;padding:0;border:1px solid #ffffff60;border-radius:50%;background:#ffffff12;color:#fff;font-size:20px;line-height:1;transition:background .2s,transform .2s}
+.hero-dots button:hover{background:#ffffff30;transform:scale(1.05)}
+.hero-dots i{display:block;position:relative;flex:1;height:1px;background:#ffffff55}
+.hero-dots i:before{content:"";position:absolute;inset:0 auto 0 0;width:26%;background:#fff}
+.hero>img.changing{opacity:0;transform:scale(1.035)}
+@media(min-width:901px){.hero-dots{position:absolute;right:1.4%;bottom:105px;width:min(390px,36%);margin:0}}
+@media(max-width:900px){.hero-dots{width:min(380px,100%);margin-top:22px}}.hero-doctor{grid-template-columns:84px minmax(0,1fr) 28px;align-items:stretch;gap:12px;min-width:0;height:100px;width:min(380px,42%);padding:7px 8px;border:1px solid #ffffff;color:#172426;background:#ffffffed;border-radius:18px;backdrop-filter:blur(14px)}
+.hero-doctor>img{width:84px;height:84px;border-radius:12px;object-fit:cover}
+.hero-doctor-main{display:grid;align-content:center;gap:3px;min-width:0}
+.hero-doctor-main>b{font-size:15px;line-height:1.3;white-space:nowrap}
+.hero-doctor-main>span{font-size:11px;line-height:1.3;color:#687476;white-space:nowrap}
+.hero-doctor-meta{display:flex;align-items:center;gap:8px;min-width:0;margin-top:2px}
+.hero-doctor-meta>span{font-size:11px!important;line-height:1.3;color:#687476;white-space:nowrap}
+.hero-doctor-meta>strong{display:inline-flex;align-items:center;gap:4px;font-size:11px;line-height:1.3;white-space:nowrap}
+.hero-doctor-meta>strong>span:first-child{color:#d59c42;font-size:13px}
+.hero-doctor-link{display:grid;place-items:center;align-self:start;width:28px;height:28px;border:1px solid #d9dfdc;border-radius:50%;background:#fff;color:#172426;font-size:14px;line-height:1}
+.hero-doctor-link:hover{background:#edf0ee}/* Keep the rating card, reviews and headline in separate blocks. */
+@media(min-width:901px){
+  .hero{height:min(900px,calc(100svh - 24px));min-height:640px;display:block;padding:0}
+  .nav{left:4%;right:4%}
+  .hero-inner{position:absolute;left:4%;right:4%;bottom:22px;width:auto;margin:0;z-index:1}
+  .hero-inner:before{content:"";position:absolute;left:0;right:0;bottom:158px;border-top:1px solid #ffffff42;pointer-events:none}
+  .hero .social-proof{display:none}
+  .hero h1{font-size:clamp(62px,6.6vw,96px);line-height:1.02;letter-spacing:-.055em;max-width:780px;margin:0 0 16px}
+  .hero-copy{display:inline-block;vertical-align:middle;width:min(455px,42%);max-width:none;font-size:16px;line-height:1.5;margin:0 2% 0 0}
+  .hero-actions{display:inline-flex;vertical-align:middle;align-items:center;gap:12px}
+  .hero-actions .pill{min-height:52px}
+  .treatment-chips{width:min(560px,52%);margin-top:86px;padding-top:14px;border-top:0;gap:8px;flex-wrap:wrap;overflow:visible}
+  .chip{font-size:12px;padding:8px 13px}
+  .hero-doctor{top:auto;right:1.4%;bottom:22px;width:min(380px,42%);max-width:380px;grid-template-columns:84px minmax(0,1fr) 28px}
+  .hero-doctor b,.hero-doctor span{min-width:0;overflow-wrap:break-word}
+  .hero-doctor>strong{align-self:center;margin:0}
+}
+@media(min-width:901px) and (max-height:760px){
+  .hero{min-height:640px;padding-top:0}
+  .hero-inner{margin:0}
+  .hero-doctor{top:auto;bottom:22px}
+}
+@media(max-width:900px){
+  .hero{display:flex;flex-direction:column;height:auto;min-height:760px;padding:104px 0 26px}
+  .hero-doctor{position:relative;order:1;top:auto;right:auto;bottom:auto;left:auto;align-self:flex-end;width:min(360px,calc(100% - 44px));max-width:none;height:80px;margin:0 22px 24px;padding:7px;grid-template-columns:64px minmax(0,1fr) 28px;gap:10px}
+  .hero-inner{position:relative;order:2;left:auto;right:auto;bottom:auto;width:auto;margin:0 22px;padding:0}
+  .social-proof{margin:0 0 28px;line-height:1.4}
+  .hero h1{font-size:clamp(48px,8.4vw,76px);line-height:1.04;letter-spacing:-.045em;margin:0 0 18px;text-wrap:balance}
+  .hero-copy{font-size:16px;line-height:1.5;margin:0 0 20px}
+  .treatment-chips{margin-top:24px}
+}
+@media(max-width:520px){
+  .hero{min-height:760px;padding-top:96px}
+  .nav{top:15px;left:17px;right:17px}
+  .hero-doctor{width:calc(100% - 40px);height:74px;margin:0 20px 24px;grid-template-columns:50px minmax(0,1fr) 24px;gap:9px;padding:7px}
+  .hero-doctor>img{width:50px;height:50px;border-radius:9px}
+  .hero-doctor-main>b{font-size:12px}.hero-doctor-main>span,.hero-doctor-meta>span{font-size:10px!important}.hero-doctor-link{width:24px;height:24px;font-size:12px}
+  .hero-doctor span{font-size:10px;line-height:1.35}
+  .hero-doctor-meta>strong{font-size:10px}
+  .hero-inner{margin-right:20px;margin-left:20px}
+  .social-proof{gap:9px;font-size:12px;margin-bottom:24px}
+  .faces img{width:32px;height:32px}
+  .hero h1{font-size:clamp(40px,10.5vw,54px);line-height:1.06;letter-spacing:-.04em;margin-bottom:16px}
+  .hero-copy{font-size:14px;margin-bottom:18px}
+  .treatment-chips{gap:7px;margin-top:20px;padding-top:14px}
+  .chip{font-size:12px;padding:8px 12px}
+}
+@media(max-width:360px){
+  .hero{padding-top:88px}
+  .hero-doctor{width:calc(100% - 28px);height:72px;margin-right:14px;margin-left:14px;grid-template-columns:42px minmax(0,1fr) 24px;gap:8px}
+  .hero-doctor>img{width:42px;height:56px;border-radius:8px}
+  
+  .hero-inner{margin-right:16px;margin-left:16px}
+  .social-proof{font-size:11px;flex-wrap:wrap}
+}@media(max-width:900px) and (min-width:521px){.hero-doctor>img{width:64px;height:64px;border-radius:10px}}</style></head>
+<body><main>
+<header class="hero" id="home"><img src="./assets/3Bwz0KK0xvnEmhANGJvA6eXIjw.webp" alt="A dentist caring for a patient"><nav class="nav"><a class="brand" href="#home"><img class="tooth" src="./assets/YRTy2NxOkfcVHGa80qEHJySIPaY.svg" alt=""><span>Aveline<small>Dental Studio</small></span></a><div class="desktop-nav"><a href="#/treatments">Treatments</a><a href="#/team">Specialists</a><a href="#/about">Studio</a><a href="#/journal">Journal</a><a href="#/book#contact">Contact</a><span class="open-status">● Open now · until 19:00</span><a class="nav-book" href="#/book">Book a visit　↗</a></div><div class="mobile-actions"><a class="mobile-book" href="#/book">Book a visit ↗</a><button class="menu" data-menu>Menu　☰</button></div></nav><div class="hero-doctor"><img src="./assets/LhRdrbEme10eLb0FCf78WEGE.webp" alt="Dr. Elena Varga"><div class="hero-doctor-main"><b>Dr. Elena Varga</b><span>Cosmetic dentistry</span><div class="hero-doctor-meta"><span>12 years experience</span><strong><span aria-hidden="true">★</span><span class="hero-doctor-rating">4.9</span></strong></div></div><a class="hero-doctor-link" href="#/team#varga" aria-label="View clinician profile">↗</a></div><div class="hero-inner"><div class="social-proof"><div class="faces"><img src="./assets/VkaMPve6r9ATzF5pXHDFQ8R76hY.webp"><img src="./assets/Jg9K07Uwxvbg6Orhxgpl9i41kI.webp"><img src="./assets/Pdg2FsX0s2JzZ9jgiBwVofeYY.webp"><img src="./assets/XwgfN9owSCdUUZcCxVrwg5aEc.webp"></div>Trusted by 12,400+ patients in Brooklyn</div><h1>Modern dentistry<br>with a gentle touch.</h1><p class="hero-copy">Expert care for healthy, confident smiles at every age. Delivered with comfort, precision and a team that explains every step before it happens.</p><div class="hero-actions"><a class="pill light" href="#/book">Book an appointment <span>›</span></a><a class="pill" href="#treatments">Explore treatments</a></div><div class="treatment-chips"><a class="chip" href="#treatments">Dental check-ups</a><a class="chip" href="#treatments">Teeth whitening</a><a class="chip" href="#treatments">Clear aligners</a><a class="chip" href="#treatments">Implants</a><a class="chip" href="#treatments">Veneers</a><a class="chip" href="#treatments">Kids' dentistry</a></div></div></header>
+<section class="process"><div class="wrap steps"><div class="step"><b>01</b><h3>Smile assessment</h3><p>A 3D scan, low-dose X-rays and a proper conversation about what you want.</p></div><div class="step"><b>02</b><h3>Care planning</h3><p>A written plan with timings and costs, before any treatment begins.</p></div><div class="step"><b>03</b><h3>Treatment</h3><p>Calm, unhurried appointments with the same clinician each time.</p></div><div class="step"><b>04</b><h3>Maintenance</h3><p>Reminders, hygiene visits and follow-ups that keep results lasting.</p></div></div></section>
+<section class="section"><div class="wrap about-grid"><div><span class="eyebrow">About the studio /</span><p class="about-copy">We deliver personalised dental care with modern technology and a gentle approach, so every patient leaves with a healthy, confident smile and a clear plan for keeping it.</p><div class="numbers"><div class="number"><strong>98%</strong><span>Satisfaction rate</span></div><div class="number"><strong>12k+</strong><span>Smiles treated</span></div><div class="number"><strong>4.9</strong><span>Google rating</span></div><div class="number"><strong>15</strong><span>Years in practice</span></div></div></div><figure class="photo-card"><img src="./assets/FUIjYCaa9b230ws29Jtepsd3yMk.webp" alt="Digital dental scan"><figcaption>Digital scans instead of messy impressions</figcaption></figure></div></section>
+<section class="section treatments" id="treatments"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Treatments /</span><h2 class="display">Discover our signature<br> dental treatments</h2></div><p>Every treatment starts with a digital check-up and a written plan with costs up front. Our studio is calm and quiet, designed to make every visit feel unhurried.</p></div><div class="treatment-grid"><a class="treatment"><span class="arrow">↗</span><small>45 min · from $85</small><h3>Check-up & cleaning</h3></a><a class="treatment"><span class="arrow">↗</span><small>60 min · from $290</small><h3>Teeth whitening</h3></a><a class="treatment"><span class="arrow">↗</span><small>6–18 months · from $2,900</small><h3>Clear aligners</h3></a><a class="treatment"><span class="arrow">↗</span><small>2–3 visits · from $1,850</small><h3>Dental implants</h3></a><a class="treatment"><span class="arrow">↗</span><small>2 visits · from $650 per tooth</small><h3>Porcelain veneers</h3></a><a class="treatment"><span class="arrow">↗</span><small>30 min · from $55</small><h3>Children's dentistry</h3></a></div><div class="treatment-footer"><div class="treatment-proof"><div class="faces"><img src="./assets/VkaMPve6r9ATzF5pXHDFQ8R76hY.webp" alt=""><img src="./assets/Jg9K07Uwxvbg6Orhxgpl9i41kI.webp" alt=""><img src="./assets/Pdg2FsX0s2JzZ9jgiBwVofeYY.webp" alt=""></div><div><strong>750+</strong><span>Five-star reviews</span></div></div><p class="treatment-note">Patients describe their visits as comfortable and clearly explained. Swipe through what we do most often.</p><div class="treatment-controls"><button aria-label="Previous treatments">‹</button><button aria-label="Next treatments">›</button></div></div></div></section>
+<section class="section care"><div class="wrap care-layout"><div><span class="eyebrow">Patient care /</span><h2 class="display">Care you can follow, from first visit to follow-up</h2><p style="color:var(--muted);max-width:450px">Good care should feel clear at every step. From choosing a time to understanding your estimate, you'll always know what comes next.</p><a class="pill" style="background:var(--teal);color:white;margin-top:16px" href="#book">Explore our care approach <span>›</span></a></div><div><div class="mockup"><div class="mocktop"><strong>Book a visit</strong><span class="live">● Live availability</span></div><p style="color:var(--muted);font-size:13px">Pick a treatment, then choose a day and time. You&#8217;ll get a confirmation by email straight away.</p><small class="book-label">Treatment</small><div class="bookrow selected" data-home-treatment="checkup" data-visit-label="Check-up & cleaning" data-visit-staff="with Anna Weiss, hygienist" role="button" tabindex="0">Check-up & cleaning · 45 min</div><div class="bookrow" data-home-treatment="whitening" data-visit-label="Whitening consultation" data-visit-staff="with Dr. Elena Varga" role="button" tabindex="0">Whitening consultation · 30 min</div><div class="bookrow" data-home-treatment="aligners" data-visit-label="Aligner consultation" data-visit-staff="with Dr. Daniel Costa" role="button" tabindex="0">Aligner consultation · 40 min</div><div class="bookrow" data-home-treatment="implants" data-visit-label="Implant consultation" data-visit-staff="with Dr. Ryan Okafor" role="button" tabindex="0">Implant consultation · 40 min</div><div class="bookrow" data-home-treatment="emergency" data-visit-label="Emergency appointment" data-visit-staff="with our on-call dentist" role="button" tabindex="0">Emergency appointment · 30 min</div><div class="visit-summary"><div><small>Your visit</small><strong>Check-up & cleaning</strong><span>with Anna Weiss, hygienist</span></div><a class="visit-request" href="#/book?treatment=checkup">Request time <span>›</span></a></div></div><div class="subcards"><div class="subcard aligner-card"><div class="subcard-head"><h3>Clear aligner plan</h3><span class="plan-status">On track</span></div><div class="aligner-summary"><div><strong>14</strong><span> / 22</span></div><small>Next check-in<b>Fri, 9 Oct</b></small></div><div class="plan-progress"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="plan-stages"><span>Stage 1</span><span>Refinement</span></div><div class="aligner-metrics"><span>Wear time today<b>21h 10m</b></span><span>Movement so far<b>64%</b></span></div></div><div class="subcard estimate-card"><div class="subcard-head"><h3>Written estimate</h3><span class="plan-status">No surprises</span></div><div class="estimate-row">Porcelain veneers × 4 <b>$2,600</b></div><div class="estimate-row">Digital smile design <b>$180</b></div><div class="estimate-row">Insurance estimate <b>−$780</b></div><div class="estimate-total"><span>You pay</span><strong>$2,000</strong></div><small>0% plans over 12 months · $167/mo</small></div></div><div class="care-reminder"><div class="care-reminder-copy"><span class="eyebrow">Every 6 months</span><h2>Stay committed to your dental wellness</h2><p>Hygiene visits, aligner check-ins and gentle reminders. A bright smile starts with consistent care.</p><a class="pill light" href="#faq">How our care plan works <span>›</span></a></div><img src="./assets/WxgGl4JcZGmlTJB0GkvvuqPEKlo.webp" alt="A clear glass model of a full set of teeth"></div></div></section>
+<section class="section specialists"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Specialists /</span><h2 class="display">Experienced hands,<br>unhurried appointments</h2></div><a class="pill" href="#book" style="background:var(--teal);color:white">Book with a specialist <span>›</span></a></div><div class="team-layout"><div class="team-list"><button class="person active"><span class="idx">01</span><strong>Dr. Elena Varga</strong><small>Cosmetic dentistry</small></button><button class="person"><span class="idx">02</span><strong>Dr. Daniel Costa</strong><small>Orthodontics</small></button><button class="person"><span class="idx">03</span><strong>Dr. Sofia Reyes</strong><small>Children's dentistry</small></button><button class="person"><span class="idx">04</span><strong>Dr. Ryan Okafor</strong><small>Implants & surgery</small></button></div><div class="portrait"><img src="./assets/LhRdrbEme10eLb0FCf78WEGE.webp" alt="Dr. Elena Varga"><div class="portrait-info"><div class="profile-review"><b>4.9</b><span>★★★★★</span><small>312 reviews</small></div><strong>Dr. Elena Varga · Cosmetic dentistry</strong><p>Elena leads our cosmetic work, from whitening to full veneer cases. She plans every smile digitally first, so you can see the result before a single tooth is touched.</p><div class="details"><span>Experience<b>12 years</b></span><span>Languages<b>English, Hungarian</b></span><span>In studio<b>Mon, Wed, Fri</b></span></div></div></div></div><div class="team-bio-mobile"><strong>Dr. Elena Varga · Cosmetic dentistry</strong><p>Elena leads our cosmetic work, from whitening to full veneer cases. She plans every smile digitally first, so you can see the result before a single tooth is touched.</p><div class="details"><span>Experience<b>12 years</b></span><span>Languages<b>English, Hungarian</b></span><span>In studio<b>Mon, Wed, Fri</b></span></div></div></div></div></section>
+<section class="section studio"><div class="wrap studio-grid"><div><span class="eyebrow">Inside the studio /</span><h2 class="display">Advanced dental care for a healthier smile</h2><p style="color:#cadbd8">Four private treatment rooms, a quiet recovery lounge and equipment chosen for comfort as much as precision.</p><div class="studio-list"><div class="studio-item"><small>01</small><div><h3>Low-dose digital X-rays</h3><p>Up to 90% less radiation than film, with results on screen in seconds.</p></div></div><div class="studio-item"><small>02</small><div><h3>Same-day ceramic crowns</h3><p>Designed and milled in the studio, fitted in a single visit.</p></div></div><div class="studio-item"><small>03</small><div><h3>Comfort options</h3><p>Noise-cancelling headphones, weighted blankets and gentle sedation on request.</p></div></div></div></div><div class="studio-photo"><img src="./assets/OOJeoY41AQsCWrnPdPjAJuQO6Mk.webp" alt="A calm treatment room"><div class="stat-float"><div class="stat-top"><div><small>Recommended check-ups</small><strong><b>2</b> visits a year</strong></div><div><small>Average visit</small><strong><b>40</b> mins</strong></div></div><div class="stat-bottom"><div><small>Today's appointments</small><div class="availability-bar"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><strong>60%</strong></div></div></div></div></section>
+<section class="section reviews"><div class="wrap"><div class="review-head"><div><span class="eyebrow">Reviews /</span><h2 class="display">What our patients say</h2></div><div><div class="rating">4.9 <span style="font-size:18px;color:#d59c42">★★★★★</span></div><small style="color:var(--muted)">1,240 Google reviews</small></div></div><div class="review-grid"><article class="quote"><p>“I've avoided dentists for years, but I was greeted with a warm smile the moment I walked in. They explained every step of my treatment and I never once felt rushed.”</p><small><b>Hannah Brooks</b> · Clear aligners, 2025</small></article><article class="quote"><p>“The written estimate matched the final bill to the dollar. Dr. Okafor walked me through the implant on screen before we started, which calmed my nerves completely.”</p><small><b>Marta Silva</b> · Dental implant, 2026</small></article><article class="quote"><p>“My two kids actually look forward to their check-ups now. Dr. Reyes has a way of turning the whole visit into something they want to tell their friends about.”</p><small><b>Laura Kim</b> · Family check-ups, 2026</small></article></div></div></section>
+<section class="section"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Journal /</span><h2 class="display">Notes on keeping your smile healthy</h2></div><a href="#/journal" class="eyebrow">View all articles ↗</a></div><div class="journal-grid"><a class="article" href="#/article/what-happens-during-a-3d-intraoral-scan"><div class="article-image"><img src="./assets/xSAy4jQg8zfuzATCFVMYt7kNAk.webp" alt="Dental technology"></div><small>TECHNOLOGY · 12 SEP 2026 · 4 MIN READ</small><h3>What actually happens during a 3D intraoral scan</h3></a><a class="article" href="#/article/professional-whitening-vs-strips"><div class="article-image"><img src="./assets/sYCE7dk1FoOdidhoG9cjd3Ltvk.webp" alt="Dental whitening"></div><small>COSMETIC · 28 AUG 2026 · 6 MIN READ</small><h3>Professional whitening versus strips: an honest comparison</h3></a><a class="article" href="#/article/five-signs-its-time-for-a-hygiene-visit"><div class="article-image"><img src="./assets/WwgdtjUYix7TTGuFbAayqWBdqrI.webp" alt="Dental hygiene"></div><small>PREVENTION · 9 AUG 2026 · 3 MIN READ</small><h3>Five signs it's time to book a hygiene visit</h3></a></div></div></section>
+<section class="section faq" id="faq"><div class="wrap faq-layout"><div><span class="eyebrow">FAQ /</span><h2 class="display">Questions,<br>answered</h2><p style="color:var(--muted)">Still unsure about something? Call our front desk on <a href="tel:+17185550142" style="color:var(--teal)">(718) 555-0142</a> and we'll talk it through.</p></div><div class="faq-list"><details open><summary>Do you accept my insurance?</summary><p>We're in network with most major PPO plans, including Delta Dental, Cigna, MetLife and Aetna. Send us your card before your visit and we'll confirm your coverage and give you a written estimate.</p></details><details><summary>What happens at my first appointment?</summary><p>Your first visit takes about an hour: a 3D scan, low-dose X-rays, a full examination and a conversation about your goals. You leave with a written plan and costs for anything we recommend.</p></details><details><summary>Can I get a same-day emergency appointment?</summary><p>Yes. We keep two emergency slots open every weekday. Call before 11:00 and we'll see you the same day for pain, swelling, a broken tooth or a lost filling.</p></details><details><summary>I'm nervous about the dentist. How can you help?</summary><p>Tell us when you book. We'll schedule a longer appointment, explain each step before it happens and agree on a stop signal. Headphones, weighted blankets and gentle sedation are available.</p></details><details><summary>Do you offer payment plans?</summary><p>Treatments over $500 can be spread across 6 or 12 months at 0% interest. Your estimate shows both the full price and the monthly amount.</p></details></div></div></section>
+<section class="cta cta-split" id="book"><div class="cta-panel"><div class="cta-copy"><span class="eyebrow">Ready for a healthier smile? /</span><h2 class="display">Book your visit today</h2><p>Our team will help you choose the right treatment, and your first consultation includes a full 3D scan.</p><div class="cta-actions"><a class="btn" href="#/book">Book an appointment <span>›</span></a><a class="cta-phone" href="tel:+17185550142">☎　(718) 555-0142</a></div></div><img class="cta-image" src="./assets/MyGBaQxSMZFBrZiETJot7ccSTg.webp" alt="Aveline Dental Studio reception"></div></section>
+<div class="studio-credit"><a href="https://visuvate.com/" target="_blank" rel="noopener noreferrer">Built by Visuvate ↗</a></div><footer class="footer"><div class="wrap"><div class="footgrid"><div class="footbrand"><a class="brand" href="#home"><img class="tooth" src="./assets/YRTy2NxOkfcVHGa80qEHJySIPaY.svg" alt=""><span>Aveline<small>Dental Studio</small></span></a><p>One short email a month with oral health tips, studio news and seasonal offers.</p><form onsubmit="event.preventDefault();this.innerHTML='Thanks for subscribing.'"><input type="email" placeholder="Your email address" required style="max-width:220px;border:1px solid #ffffff55;background:transparent;border-radius:24px;padding:11px;color:white"><button class="btn" style="padding:11px 14px">Subscribe</button></form></div><div><h4>Treatments</h4><div class="footlinks"><a href="#treatments">Check-ups & cleaning</a><a href="#treatments">Teeth whitening</a><a href="#treatments">Clear aligners</a><a href="#treatments">Dental implants</a><a href="#treatments">Veneers</a></div></div><div><h4>Studio</h4><div class="footlinks"><a href="#home">About</a><a href="#team">Specialists</a><a href="#reviews">Reviews</a><a href="#journal">Journal</a><a href="#faq">FAQ</a></div></div><div><h4>Visit</h4><div class="footlinks"><a>218 Linden Avenue</a><a>Brooklyn, NY 11215</a><a>Mon–Fri 08:00–19:00</a><a>Sat 09:00–14:00</a><a href="https://maps.google.com/?q=218+Linden+Avenue+Brooklyn+NY">Get directions ↗</a></div></div><div><h4>Contact</h4><div class="footlinks"><a href="tel:+17185550142">(718) 555-0142</a><a href="mailto:hello@avelinedental.com">hello@avelinedental.com</a><a href="#book">Book a visit</a><div class="social-links"><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="YouTube">▷</a></div></div></div><div class="copyright"><span>© 2026 Aveline Dental Studio</span><span>Privacy　 ·　 Terms　 ·　 Accessibility</span></div><div class="footer-wordmark">Aveline</div></div></footer>
+</main><script src="replica.js"></script></body></html>
+
+
+
+
+
